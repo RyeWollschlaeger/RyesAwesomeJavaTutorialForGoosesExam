@@ -29,7 +29,7 @@ public class Main {
         AbstractAnimal cat = new Cat(30.0);
         System.out.println(cat.getLegs());
         System.out.println(cat.getSound());
-        // System.out.println(cat.getPurrDecibels()); <- Won't work, as our cast is typed as AbstractAnimal
+        // System.out.println(cat.getPurrDecibels()); <- Won't work, as our cat is typed as AbstractAnimal
 
         // instanceOf
         boolean trueOrFalse = ThreadLocalRandom.current().nextBoolean();
